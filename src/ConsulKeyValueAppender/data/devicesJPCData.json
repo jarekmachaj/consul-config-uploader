@@ -1,0 +1,50 @@
+[
+  {
+    "key": "apps/jpc/configuration/devices",
+    "value": [
+      {
+        "Name": "Switch1",
+        "Actions": [
+          {
+            "Name": "on",
+            "Uri": "http://192.168.1.201:7000/switch1/on"
+          },
+          {
+            "Name": "off",
+            "Uri": "http://192.168.1.201:7000/switch1/off"
+          }
+        ]
+      },
+      {
+        "Name": "Switch2",
+        "Actions": [
+          {
+            "Name": "on",
+            "Uri": "http://192.168.1.201:7000/switch2/on"
+          },
+          {
+            "Name": "off",
+            "Uri": "http://192.168.1.201:7000/switch2/on"
+          }
+        ]
+      },
+      {
+        "Name": "Switch3",
+        "Actions": [
+          {
+            "Name": "on",
+            "Uri": "http://192.168.1.201:7000/switch3/on"
+          },
+          {
+            "Name": "off",
+            "Uri": "http://192.168.1.201:7000/switch3/off"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "apps/jpc/configuration/ConnectionStrings",
+    "value": { "DefaultConnectionString": "Filename=machaj.net.db" }
+  }
+]

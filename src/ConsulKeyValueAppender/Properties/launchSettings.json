@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsulKeyValueAppender": {
+      "commandName": "Project",
+      "commandLineArgs": "-c  http://localhost:8500 -m b1c89741-57d9-4e2c-98e8-7a71e9ae6b95"
+    }
+  }
+}
